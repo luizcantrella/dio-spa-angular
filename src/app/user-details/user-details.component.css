@@ -1,0 +1,36 @@
+.user-detail {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+  padding: 0.5rem 0;
+}
+
+.user-photo img {
+  border-radius: 100%;
+  width: 3rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.user-name {
+  color: rgb(96, 96, 187);
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.user-email-company {
+  color: rgb(96, 96, 187);
+}
+
+.user-created {
+  color: gray;
+  font-size: 0.5rem;
+  margin-top: 0.5rem;
+}

@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 50px auto 50px auto;
+}
+
+.main-buttons {
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.table-container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.table-users {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.btn-group-actions button{
+  margin-right: 1rem;
+}

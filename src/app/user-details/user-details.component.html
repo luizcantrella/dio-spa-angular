@@ -1,0 +1,12 @@
+<div class="user-detail">
+  <mat-checkbox class="user-selected" [checked]="details.selected"></mat-checkbox>
+  <div class="user-photo">
+    <img [src]="details.photUrl" alt="user photo">
+  </div>
+  <div class="user-info">
+    <h3 class="user-name">{{details.name}}</h3>
+    <span class="user-email-personal">{{details.emailPersonal}}</span>
+    <span class="user-email-company">{{details.emailCompany}}</span>
+    <span class="user-created">{{details.created}}</span>
+  </div>
+</div>
